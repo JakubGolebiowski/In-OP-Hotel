@@ -1,0 +1,70 @@
+
+
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.4.2/css/bulma.css"> -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="font-awesome-4_7_0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="../style.css">
+    <title>InOP</title>
+</head>
+
+<body>
+    <div class="text-center containerFluidIndex">
+        <div class="border border-success rounded pt-5 pb-5">
+            <div class="row justify-content-center">
+            <div class="col-sm-12 col-md-12 col-lg-10 col-xl-10 mt-5 mb-5">
+                <a href="wylogowywanie.html">
+                    <button class="btn btn-success batonWybierzWersje float-right">Wyloguj się</button>
+                </a>
+            </div>
+
+            <div class="col-8">
+                <h1><b>Znajdź klienta</b></h1>
+            </div>
+            <div class="col-6">
+                <h1>Wprowadź imię i nazwisko lub e-mail klienta w celu wyszukiwania</h1>
+            </div>
+        </div>
+    
+        <div class="row justify-content-center mt-5 mb-5 text form-check">
+
+
+            <form action="daneRezerwacji.html" method="POST">
+                <div class="daneOsoboweWprowadz">
+                    <label class="label">Imię i nazwisko</label><br>
+                    <input id="imieNazwisko" name="imieNazwisko" type="text" class="input"
+                        placeholder="Imię i nazwisko">
+                </div>
+
+                <div class="daneOsoboweWprowadz">
+                    <label class="label">Adres e-mail</label><br>
+                    <input id="email" name="email" type="email" class="input" placeholder="Adres e-mail">
+                </div>
+            </form>
+        </div>
+    </div>
+        <div class="divButtonWybierzWersje text-center">
+            <a href="klientaZnaleziono.html">
+                <input class="bg-success batonWybierzWersje" type="submit" value="Szukaj" />
+            </a>
+        </div>
+    </div>
+    </div>
+
+
+
+
+</body>
+
+</html>
