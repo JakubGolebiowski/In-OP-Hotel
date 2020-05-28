@@ -1,0 +1,79 @@
+.containerFluidIndexMain {
+    border: 2px black solid;
+    border-radius: 1em;
+    padding: 5%;
+    margin: 5% 7%;
+    max-width: 85%;
+}
+
+.titleHotel {
+    padding: 5% 0 0 0;
+}
+
+.buttonTitle {
+    padding: 3em;
+    margin: 5% 0 0 0;
+}
+
+.batonPadding {
+    padding: 3em;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+
+/* wybierzWersje.html */
+
+.containerFluidIndex {
+    border: 2px black solid;
+    border-radius: 1em;
+    padding: 2%;
+    margin: 3% 5%;
+    max-width: 85%;
+}
+
+.wybierzWersjeTitle {
+    padding: 1em;
+    margin: 2% 0 0 0;
+}
+
+.divButtonWybierzWersje {
+    padding: 1.2em;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.batonWybierzWersje {
+    padding: 0.5em;
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+
+/* dostepnePokoje */
+
+.span1Input {
+    background: #eaeaea;
+    color: green;
+    padding: 1% 2%;
+    border-radius: 0.5em;
+}
+
+.form-check-label {
+    margin-bottom: 0;
+    min-width: 80%;
+}
+
+
+/* wprowadx Dane osobowe */
+
+.daneOsoboweWprowadz {
+    font-size: 2em;
+}
+@media only screen and (max-width: 1040px) {
+    .batonWybierzWersje {
+        padding: 0.5em;
+        font-size: 1em;
+        font-weight: bold;
+    }
+  }
