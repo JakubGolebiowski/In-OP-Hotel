@@ -1,4 +1,4 @@
-<!-- <?php
+<?php
 $imie=$_POST['imie'];
 $nazwisko=$_POST['nazwisko'];
 $mail=$_POST['mail'];
@@ -44,7 +44,7 @@ require_once "connect.php";
 	
 	
 
-?> -->
+?>
 
 <!DOCTYPE html>
 <html lang="pl">
@@ -68,8 +68,11 @@ require_once "connect.php";
     <div class="text-center containerFluidIndex">
         <div class="border border-success rounded pt-5 pb-5">
             <div class="row justify-content-center">
-                <div class="col-4">
-                    <h1>Wprowadź swoje dane osobowe</h1>
+                <div class="col-8">
+                    <h1><b>Wyświetl dane rezerwacji</b></h1>
+                </div>
+                <div class="col-6">
+                    <h1>Wprowadź dane swojej rezerwacji</h1>
                 </div>
             </div>
 
@@ -88,45 +91,14 @@ require_once "connect.php";
                     </div>
 
                     <div class="daneOsoboweWprowadz">
-                        <label class="label">Adres e-mail</label><br>
-                        <input id="mail" name="mail" type="text" type="email" class="input" placeholder="Adress email">
-                    </div>
-
-                    <div class="daneOsoboweWprowadz">
-                        <label class="label">Data urodzenia</label>
-                    </div>
-                    <div class="columns is-mobile is-centered">
-                        <div class="daneOsoboweWprowadz ">
-                            <div class="control">
-                                <input id="data" name="data" type="text" class="input" placeholder="rrrr-mm-dd">
-                            </div>
-                        </div>
-                    </div><br>
-                    <div class="row justify-content-center">
-                        <div class="col-4">
-                            <h1>Do zapłaty: xxx</h1>
-                        </div>
-                    </div><br>
-                    <div class="row justify-content-center">
-                        <div class="col-4">
-                            <h1>Wybierz rodzaj płatności</h1>
-                        </div>
-                    </div><br>
-                    <div class="radio daneOsoboweWprowadz">
-                        <label class="form-check-label">
-                            <input type="radio" class="form-check-input" name="optradio"><span class="span1Input">Gotówka</span>
-                        </label>
-                    </div><br>
-                    <div class="radio daneOsoboweWprowadz">
-                        <label class="form-check-label">
-                            <input type="radio" class="form-check-input" name="optradio"><span class="span1Input">Przelew</span>
-                        </label>
+                        <label class="label">Nr. rezerwacji</label><br>
+                        <input id="nrRezerwacji" name="nrRezerwacji" type="text" type="text" class="input" placeholder="Nr rezerwacji">
                     </div>
                 </form>
             </div>
 
             <div class="divButtonWybierzWersje text-center">
-                <a href="daneRezerwacji.html">
+                <a href="wyswietlaDaneRezerwacjiDane.html">
                     <input class="bg-success batonWybierzWersje" type="submit" value="Przejdź dalej" />
                 </a>
             </div>

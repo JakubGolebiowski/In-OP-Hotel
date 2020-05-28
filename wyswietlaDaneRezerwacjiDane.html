@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.4.2/css/bulma.css"> -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="font-awesome-4_7_0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="style.css">
+
+    <title>InOP</title>
+</head>
+
+<body>
+
+    <div class="containerFluidIndex">
+        <div class="border border-success rounded pt-5 pb-5">
+
+            <h1 class="text-center">Informacje o pokoju</h1>
+            <!-- Jeśli tak-->
+            <div class="offset-1 col-10 col-sm-10 col-md-10 col-lg-10 col-xl-10 border border-success rounded">
+                <h1>Dane rezerwacji zostały znalezione pomyślnie:<br> Wynająłeś pokój: XXX - pokój X osobowy, w dniach
+                    dd/mm/yyyy-dd/mm/yyyy</h1>
+            </div>
+            <!--jeśli nie-->
+            <div class="offset-1 col-10 col-sm-10 col-md-10 col-lg-10 col-xl-10 border border-warning rounded">
+                <h1>Dane rezerwacji nie zostały znalezione!<br> Czy chcesz spróbować ponownie?</h1>
+            </div>
+            <!--END-->
+        </div>
+
+        <!--jeśli nie-->
+        <div class="divButtonWybierzWersje text-center">
+            <a href="wyswietlDaneRezerwacji.html">
+                <button class="btn btn-success batonWybierzWersje" type="button">Spróbuj ponownie</button>
+            </a>
+            <a href="oNasRegulamin.html">
+                <button class="btn btn-success batonWybierzWersje" type="button">Wróć na stronę główną</button>
+            </a>
+        </div>
+        <!-- Jeśli tak-->
+        <div class="divButtonWybierzWersje text-center">
+            <a href="jestesPewny.html">
+                <button class="btn btn-success batonWybierzWersje" type="button">Anuluj rezerwację</button>
+            </a>
+            <a href="oNasRegulamin.html">
+                <button class="btn btn-success batonWybierzWersje" type="button">Wróć na stronę główną</button>
+            </a>
+        </div>
+        <!--END-->
+    </div>
+
+
+
+
+</body>
+
+</html>

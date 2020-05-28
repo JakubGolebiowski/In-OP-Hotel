@@ -1,75 +1,74 @@
 <!DOCTYPE html>
 <html lang="pl">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.4.2/css/bulma.css">
-  <title>InOP</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.4.2/css/bulma.css"> -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="font-awesome-4_7_0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="style.css">
+
+    <title>InOP</title>
 </head>
+
 <body>
-  <div class="container"></div>
+    <!-- 
+    <div class="form-check">
+        <label class="form-check-label">
+      <input type="radio" class="form-check-input" name="optradio">Option 1
+    </label>
+    </div> -->
 
-    <!-- BOX -->
 
-    <div class="block">
-      <div class="columns">
-        <div class="column is-2">
-        </div>
-        <div class="column is-8">
-          <div class="block" style="margin-top: 10%;">
-            <div class="box has-text-centered" style="height:600px;  border-radius: 5px; box-shadow: 0 2px 3px rgba(0, 0, 0, 0.96), 0 0 0 1px rgb(0, 0, 0);">
-                <div class="block">
-                    <div class="box has-text-centered" style="height:560px;  border-radius: 5px; box-shadow: 0 2px 3px rgba(0, 0, 0, 0.96), 0 0 0 1px rgb(0, 0, 0);">
-                        <h1 class="title" style="font-size:2em;"><b>Dostępne Pokoje</b></h1>
-                        <div style="height:25px;"></div>
-<!-- BEGIN -->
-                        <a href="infoOPokoju.html">
-                          <div class="block">
-                            <div class="columns">
-                              <div class="column is-3">
-                                <p class="notification">1-osobowy</p>
-                              </div>
-                              <div class="column is-7">
-                                <p class="notification">super opis pięknego pokoju</p>
-                              </div>
-                             <div class="column is-2">
-                                <p class="notification">440pln</p>
-                              </div>
-                            </div>
-                          </div>
-                        </a>
-<!-- END -->
-                        <a href="infoOPokoju.html">
-                          <div class="block">
-                            <div class="columns">
-                              <div class="column is-3">
-                                <p class="notification">3-osobowy</p>
-                              </div>
-                              <div class="column is-7">
-                                <p class="notification">super opis pięknego pokoju</p>
-                              </div>
-                             <div class="column is-2">
-                                <p class="notification">120pln</p>
-                              </div>
-                            </div>
-                          </div>
-                        </a>  
-
-                    </div>
-                  </div>
+    <div class="text-center containerFluidIndex">
+        <div class="border border-success rounded pt-5 pb-5">
+            <div class="row justify-content-center">
+                <div class="col-4">
+                    <h1>Dostępne Pokoje</h1>
+                </div>
             </div>
-          </div>
-        </div>
-        <div class="column is-2">
 
+            <div class="row justify-content-center mt-5 mb-5 text form-check">
+                <div class="form-check">
+                    <label class="form-check-label">
+                <input type="radio" class="form-check-input" name="optradio"><span class="span1Input">1-osobowy</span> <span class="span1Input">super opis pięknego pokoju</span> <span class="span1Input">440pln</span>
+              </label>
+                </div>
+            </div>
+
+            <div class="row justify-content-center mt-5 mb-5 text form-check">
+                <div class="form-check">
+                    <label class="form-check-label">
+              <input type="radio" class="form-check-input" name="optradio"><span class="span1Input">3-osobowy</span> <span class="span1Input">super opis pięknego pokoju</span> <span class="span1Input">120pln</span>
+            </label>
+                </div>
+            </div>
+
+
+
+
+            <br><br><br>
         </div>
-      </div>
+
+        <div class="divButtonWybierzWersje text-center">
+            <a href="infoOPokoju.html">
+                <button class="btn btn-success batonWybierzWersje" type="button">Przejdź dalej</button>
+            </a>
+        </div>
     </div>
 
-  </div><!-- /. container -->
+
+
+
+
 
 
 </body>
+
 </html>
